@@ -3,7 +3,7 @@ import './SearchPage.css';
 import { Button } from "@material-ui/core";
 import SearchResult from "./SearchResult";
 
-function SearchPage() {
+const SearchPage= () => {
     return (
         <div className='searchPage'>
             <div className='searchPage__info'>

@@ -5,7 +5,7 @@ import Card from './Card'
 
 // ES7 snippets to do 'rfce'
 
-function Home() {
+const Home = () => {
     return (
         <div className='home'>
             <Banner />
